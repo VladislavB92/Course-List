@@ -81,18 +81,18 @@ struct Course: Codable, Identifiable {
     var image: String
 }
 
-//
-//struct TempImage_Previews: PreviewProvider {
-//    static var previews: some View {
-//        VStack {
-//            Image(systemName: "books.vertical")
-//                .font(.largeTitle)
-//                .padding(80)
-//
-//        }.frame(maxWidth: .infinity)
-//            .background(Color.gray)
-//    }
-//}
+
+struct TempImage_Previews: PreviewProvider {
+    static var previews: some View {
+        VStack {
+            Image(systemName: "books.vertical")
+                .font(.largeTitle)
+                .padding(80)
+
+        }.frame(maxWidth: .infinity)
+            .background(Color.gray)
+    }
+}
 
 
 struct ContentView_Previews: PreviewProvider {
