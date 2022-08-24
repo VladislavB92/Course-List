@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F5E907002896E5040072791F /* Course_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E906FF2896E5040072791F /* Course_ListApp.swift */; };
-		F5E907022896E5040072791F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E907012896E5040072791F /* ContentView.swift */; };
+		F5E907022896E5040072791F /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E907012896E5040072791F /* CourseListView.swift */; };
 		F5E907042896E5040072791F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E907032896E5040072791F /* Assets.xcassets */; };
 		F5E907072896E5040072791F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E907062896E5040072791F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		F5E906FC2896E5040072791F /* Course List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Course List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E906FF2896E5040072791F /* Course_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_ListApp.swift; sourceTree = "<group>"; };
-		F5E907012896E5040072791F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5E907012896E5040072791F /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
 		F5E907032896E5040072791F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E907062896E5040072791F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				F5E906FF2896E5040072791F /* Course_ListApp.swift */,
-				F5E907012896E5040072791F /* ContentView.swift */,
+				F5E907012896E5040072791F /* CourseListView.swift */,
 				F5E907032896E5040072791F /* Assets.xcassets */,
 				F5E907052896E5040072791F /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5E907022896E5040072791F /* ContentView.swift in Sources */,
+				F5E907022896E5040072791F /* CourseListView.swift in Sources */,
 				F5E907002896E5040072791F /* Course_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
